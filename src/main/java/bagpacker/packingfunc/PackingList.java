@@ -58,5 +58,8 @@ public class PackingList {
         return itemList.size();
     }
 
+    public void clear() {
+        itemList.clear();
+    }
 
 }
